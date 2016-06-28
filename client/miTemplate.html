@@ -1,0 +1,15 @@
+<template name="miTemplate">
+    {{> loginButtons}}
+    
+    <div>este es mi template</div>
+    
+    {{# each usuarios}}
+        <div>
+           {{_id}}
+           {{status.online}}
+        </div>
+        
+        
+    {{/ each}}
+    
+</template>
